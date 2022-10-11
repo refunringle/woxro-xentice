@@ -1,0 +1,38 @@
+/* .iconsbar{
+    background-color: #012b72;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    z-index: 20;
+
+}
+.flex-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    color: rgb(255, 255, 255);
+    
+}
+.flex-icon::-webkit-scrollbar{
+    display: none;
+} */
+.iconsbar{
+    background-color: #012b72;
+    height: auto;
+    width:100%;
+}
+.flex-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    color: rgb(255, 255, 255);
+    padding-top : 20px;
+    margin:5px;
+}
+.flex-icon::-webkit-scrollbar{
+    display: none;
+} 

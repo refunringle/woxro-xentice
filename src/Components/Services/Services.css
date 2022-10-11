@@ -1,0 +1,16 @@
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-top: 20px;
+}
+.service::-webkit-scrollbar{
+    display: none;
+}
+.service img{
+    max-height: 33px;
+    width: auto;
+}

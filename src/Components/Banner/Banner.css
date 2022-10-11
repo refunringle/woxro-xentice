@@ -1,0 +1,20 @@
+.banner{
+    position: relative;
+    background: url(../../Assets/background.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+.card-style{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 410px;
+    margin: 0;
+}
+.search{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(1, 43, 114);
+    cursor: pointer;
+}

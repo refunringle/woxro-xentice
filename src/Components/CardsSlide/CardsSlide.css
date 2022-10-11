@@ -1,0 +1,36 @@
+.container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.cardMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.cards{
+    border: 1px solid black;
+    overflow: hidden;
+    height: 400px;
+    color:black
+}
+.ImageStyle{
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.slick-slide > div {
+    margin: 0 10px;
+}
+.slick-list {
+    margin: 0 -10px;
+}
+.titleFav{
+    display: flex;
+    justify-content: space-between;
+}
+
